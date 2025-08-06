@@ -20,7 +20,7 @@ Outside of work, I enjoy reading 📚, playing badminton 🏸 and ping pong 🏓
 **Doctoral Research (In Progress)**
 
 * **Graph neural network for fault localization in sequence-based models**
-    * (Empirical Software Engineering, December 2024)
+    * (Empirical Software Engineering, June 2025)
     * This work introduces a novel graph neural network to accurately pinpoint the source of faults in complex software systems.
 
 **Masters Research (2022-2024)**
