@@ -13,11 +13,29 @@ I am proficient in TensorFlow \(flexible to work with PyTorch, and Jax\), and I 
 
 Outside of work, I enjoy reading 📚, playing badminton 🏸 and ping pong 🏓, and learning new things 🧠.
 
-**Publications**
+### Selected Publications
 
-* **June 2024:** RuleBoost: A Neuro-Symbolic Framework for Robust Deepfake Detection (International Joint Conference on Biometrics)
-* **May 2023:** [HolisticDFD: Spatiotemporal Transformer Embeddings Infusion for Deepfake Detection](https://www.sciencedirect.com/science/article/abs/pii/S0020025523009374) (Information Sciences)
-* **April 2023:** [Multimodaltrace: Deepfake Detection using Audiovisual Representation Learning](https://openaccess.thecvf.com/content/CVPR2023W/WMF/html/Raza_Multimodaltrace_Deepfake_Detection_Using_Audiovisual_Representation_Learning_CVPRW_2023_paper.html) (CVPR 2023 Workshop on Media Forensics)
+---
+
+**Doctoral Research (In Progress)**
+
+* **Graph neural network for fault localization in sequence-based models**
+    * (Empirical Software Engineering, December 2024)
+    * This work introduces a novel graph neural network to accurately pinpoint the source of faults in complex software systems.
+
+**Masters Research (2022-2024)**
+
+* **RuleBoost: A Neuro-Symbolic Framework for Robust Deepfake Detection**
+    * (Best Poster Award, International Joint Conference on Biometrics, June 2024)
+    * We developed a new framework that combines deep learning with logical rules to create more reliable and explainable deepfake detection models.
+
+* **[HolisticDFD: Spatiotemporal Transformer Embeddings Infusion for Deepfake Detection](https://www.sciencedirect.com/science/article/abs/pii/S0020025523009374)**
+    * (Information Sciences, May 2023)
+    * This paper presents a transformer-based approach that analyzes both spatial and temporal features to improve the accuracy of deepfake detection.
+
+* **[Multimodaltrace: Deepfake Detection using Audiovisual Representation Learning](https://openaccess.thecvf.com/content/CVPR2023W/WMF/html/Raza_Multimodaltrace_Deepfake_Detection_Using_Audiovisual_Representation_Learning_CVPRW_2023_paper.html)**
+    * (CVPR 2023 Workshop on Media Forensics, April 2023)
+    * Our research explores a multimodal method that leverages both audio and visual cues to identify deepfake videos more effectively.
 
 **Projects**
 * Facial Recognition Deployment with PostgreSQL and `pgvector`: Deployment of a FastAPI application that utilizes PostgreSQL as its database backend, with support for the pgvector extension for facial recognition. It includes functionality for extracting and saving facial embeddings to PostgreSQL, as well as comparing new embeddings to find the closest facial embeddings.
