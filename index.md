@@ -38,6 +38,9 @@ Outside of work, I enjoy reading 📚, playing badminton 🏸 and ping pong 🏓
     * Our research explores a multimodal method that leverages both audio and visual cues to identify deepfake videos more effectively.
 
 **Projects**
+
+---
+
 * Facial Recognition Deployment with PostgreSQL and `pgvector`: Deployment of a FastAPI application that utilizes PostgreSQL as its database backend, with support for the pgvector extension for facial recognition. It includes functionality for extracting and saving facial embeddings to PostgreSQL, as well as comparing new embeddings to find the closest facial embeddings.
 * **K3-Addons: Additional multi-backend functionality for Keras 3.** Multibackend attention mechanisms, advanced optimizers, or specialized layers, etc in Keras 3.
 * **K3IM: Keras 3 Image Models** Implementation of Image Models  and their 1D/3D/Space-Time extensions in Keras 3 \(more than 30 in total\). The models have been trained and tested with TensorFlow, PyTorch and JAX backends. ([repo](https://github.com/anas-rz/k3im/))
