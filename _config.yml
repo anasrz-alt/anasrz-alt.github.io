@@ -1,74 +1,91 @@
-### your site title here
-
+### Site Settings ###
 title: Muhammad Anas Raza
-description: ML | Learner
-
-# baseurl: /gradfolio #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
-email: #
-
-# Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
-
-# Social media links in footer
-# twitter: "AnasRzaa"
-linkedin: "memanasraza"
-stackoverflow: "13262692/muhammad-anas-raza"
-github: "anas-rz"
-# researchgate: "#"
-# orcid: "#"
-# quora: "#"
-# instagram: "#"
-# facebook: "#"
+description: >-
+  ML | Learner
+baseurl: "" # Set to the name of your GitHub repository, e.g., "/my-portfolio"
+repository: anasrz-alt/anasrz-alt.github.io # Change to <your-username>/<your-username>.github.io
+remote_theme: yousinix/portfolYOU
+open_new_tab: false
 
 
-# Markdown
-highlighter: rouge
-markdown: kramdown
+### Plugins ###
+plugins:
+  - jemoji
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-email-protect
+  - jekyll-target-blank
 
-# Tracker
-analytics:
 
-# optimization -> compress.html
-compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
-  comments: ["<!-- ", " -->"]
-  endings: [all]
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: []
+### Navbar Settings ###
+nav_exclude:
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - documentation/partials/**
 
-#collection
+
+### Author Info ###
+author:
+  name: Muhammad Anas Raza
+  image: # Add a URL for your profile picture here
+  email: # Add your email here
+  github: anasrz-alt
+  linkedin: memanasraza
+  stackoverflow: 13262692/muhammad-anas-raza
+  # If you use Twitter, you can uncomment the line below and add your username
+  # twitter: AnasRzaa
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
 collections:
   projects:
     output: true
-    permalink: /projects/:name/
-    order:
-      - shortProject.md
-      - longerProjectTitle.md
-      # - redirect.md
-      - project4.md
-      - project5.md
-      - project6.md
+    permalink: /projects/:name
 
-sass:
-  sass_dir: /assets/css/_sass
-  style: compressed
 
-include:
-  - _pages
+### Disqus ###
+disqus:
+  shortname: # Add your Disqus shortname here
 
+
+### Analytics ###
+analytics:
+  enabled: false
+  google:
+    tracking_id: # Add your Google Analytics tracking ID here
+
+
+### Buy me a coffee ###
+buymeacoffee:
+  enabled: false
+  username: # Add your username here
+  color: "#007bff"
+  message: "Thank you for visiting."
+  description: "Support me on Buy me a coffee!"
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false
+
+
+### Exclude from processing ###
 exclude:
   - README.md
-  - LICENSE.md
-  - archive.html
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-email-protect
-  - jekyll-target-blank
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
